@@ -1,0 +1,29 @@
+{
+  "name": "mindy/state_persister",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Falaleev Maxim",
+      "email": "max@studio107.ru"
+    }
+  ],
+  "require": {
+    "mindy/helper": "^1.2",
+    "mindy/cache": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "phpunit/php-code-coverage": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mindy\\StatePersister\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mindy\\StatePersister\\Tests\\": "test/"
+    }
+  }
+}
