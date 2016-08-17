@@ -9,8 +9,8 @@
     }
   ],
   "require": {
-    "mindy/helper": "^1.2",
-    "mindy/cache": "^1.0"
+    "mindy/helper": "*",
+    "mindy/cache": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "*",
